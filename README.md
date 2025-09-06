@@ -14,27 +14,27 @@ Actualmente trabajo en:
 
 ---
 
-## 📖 Sobre mí
+##Sobre mí
 Me gusta aprender sobre tecnologías nuevas, experimentar en diversos campos y proyectos de tecnología.  
 También tengo interés en negocios y el sector agrícola para futuros proyectos personales.  
 
 ---
 
-## 🛠️ Tecnologías que manejo
+##Tecnologías que manejo
 - **Lenguajes:** Java, JavaScript, SQL, Python  
 - **Frontend:** HTML, CSS  
 - **Herramientas:** Git, GitHub, VS Code, Unity, TurboWarp  
 
 ---
 
-## 📂 Repositorios Destacados
-- [🎮 Rompe-ladrillos en Unity](#)  
-- [🌐 Renta de autos - HTML/CSS](#)  
-- [📊 Estadística aplicada en Python](#)  
+##Repositorios Destacados
+- [Rompe-ladrillos en Unity](#)  
+- [Renta de autos - HTML/CSS](#)  
+- [Estadística aplicada en Python](#)  
 
 ---
 
-## 🌐 Conéctate conmigo
+##Conéctate conmigo
 [![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&logoColor=white)](https://youtube.com/@juandavidarias8585?si=dX1dl-Sm-z124RiX)
 [![Instagram](https://img.shields.io/badge/Instagram-@ariasjd313-purple?logo=instagram&logoColor=white)](https://www.instagram.com/ariasjd313/?next=%2F)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white)](#)
@@ -42,4 +42,10 @@ También tengo interés en negocios y el sector agrícola para futuros proyectos
 
 ✉ Email: **ja0249837@gmail.com**
 ---
-#Profe, hize un perfil por que no tengo muchas bases con el proyecto. 
+<!-- 
+Profe, como aún no tengo una buena idea para el proyecto base, hice un perfil en GitHub. 
+Me basé en ejemplos como Facebook for WooCommerce, Markdown syntax y ajustes con ChatGPT. 
+La idea fue aplicar lo aprendido: usar secciones personales, badges, enlaces a redes y ejemplos de proyectos, no fui capaz de adecaur una imagen, si agregarla paro no tin. 
+Este README es un primer ejercicio para documentar mis futuros proyectos.
+-->
+
