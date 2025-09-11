@@ -14,20 +14,20 @@ Actualmente trabajo en:
 
 ---
 
-##Sobre mí
+## Sobre mí
 Me gusta aprender sobre tecnologías nuevas, experimentar en diversos campos y proyectos de tecnología.  
 También tengo interés en negocios y el sector agrícola para futuros proyectos personales.  
 
 ---
 
-##Tecnologías que manejo
+## Tecnologías que manejo
 - **Lenguajes:** Java, JavaScript, SQL, Python  
 - **Frontend:** HTML, CSS  
 - **Herramientas:** Git, GitHub, VS Code, Unity, TurboWarp  
 
 ---
 
-##Repositorios Destacados
+## Repositorios Destacados
 - [Rompe-ladrillos en Unity](#)  
 - [Renta de autos - HTML/CSS](#)  
 - [Estadística aplicada en Python](#)  
@@ -39,11 +39,10 @@ También tengo interés en negocios y el sector agrícola para futuros proyectos
 La **AgroTienda Online** es un proyecto en fase de planteamiento que aún no ha iniciado operaciones.  
 Con el fin de anticipar posibles dificultades y mejorar su planeación, se elaboró un **diagrama de Ishikawa**:
 
-![Diagrama Ishikawa](<img width="1024" height="768" alt="Diagrama de firches" src="https://github.com/user-attachments/assets/0a866822-0fe6-4c39-9bcc-b3b932407d57" />
-)
+![Diagrama Ishikawa](https://github.com/Arias313/propuesta-proyecto-grado/blob/img/Diagrama%20de%20firches.png)
 ---
 
-##Conéctate conmigo
+## Conéctate conmigo
 [![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&logoColor=white)](https://youtube.com/@juandavidarias8585?si=dX1dl-Sm-z124RiX)
 [![Instagram](https://img.shields.io/badge/Instagram-@ariasjd313-purple?logo=instagram&logoColor=white)](https://www.instagram.com/ariasjd313/?next=%2F)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white)](#)
