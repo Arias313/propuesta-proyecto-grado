@@ -34,51 +34,64 @@ También tengo interés en negocios y el sector agrícola para futuros proyectos
 
 ---
 
-## AgroTienda Online - Análisis
+## Zona XY - Análisis  
 
-La **AgroTienda Online** es un proyecto en fase de planteamiento que aún no ha iniciado operaciones.  
-Con el fin de anticipar posibles dificultades y mejorar su planeación, se elaboró un **diagrama de Ishikawa**:
+**Zona XY** es un proyecto orientado a la **compra y venta de consolas, videojuegos y accesorios gamer**.  
+Su propósito principal es brindar una experiencia de compra **rápida, segura y confiable en Medellín**, con la posibilidad de realizar **envíos a nivel nacional**.  
 
-![Diagrama Ishikawa](https://github.com/Arias313/propuesta-proyecto-grado/blob/img/Diagrama%20de%20firches.png)
+Más que una tienda online, Zona XY busca convertirse en un **espacio para la comunidad gamer**, donde los clientes encuentren sus consolas favoritas, accesorios y juegos, con la garantía de un servicio cercano y eficiente.  
+
+Con el fin de anticipar posibles dificultades y fortalecer la planeación del negocio, se elaboró un **diagrama de Ishikawa**, en el que se identifican las principales causas y subcausas que podrían generar fallas o baja eficiencia en el futuro.
+
+
+![Diagrama Ishikawa Zona XY](https://raw.githubusercontent.com/Arias313/propuesta-proyecto-grado/img/Diagrama%20de%20ishikawa%20ZonaXY.png)
+
+
 ---
+
 ## 👤 Ficha de Usuario (User Persona)
 
-| Campo              | Información base                                  |
-|--------------------|-------------------------------------------------|
-| **Nombre y apodo**  | [Ej: Camila Ríos - “La Productora”]             |
-| **Edad**           | [Ej: 35 años]                                    |
-| **Ocupación**      | [Ej: Agricultora independiente]                  |
-| **Ubicación**      | [Ej: Zona rural - Antioquia]                     |
-| **Nivel educativo**| [Ej: Técnica agropecuaria]                       |
-| **Ingreso mensual**| [Ej: $1.200.000 COP aprox.]                      |
+| Campo              | Información base                              |
+|--------------------|-----------------------------------------------|
+| **Nombre y apodo**  | Sebastián López - “El Gamer Retro”           |
+| **Edad**           | 24 años                                       |
+| **Ocupación**      | Estudiante universitario / Streamer           |
+| **Ubicación**      | Medellín, Antioquia                           |
+| **Nivel educativo**| Universitario en curso                        |
+| **Ingreso mensual**| $1.000.000 COP (apoyo familiar + streaming)   |
 
-### 🧾 Descripción
-> [Breve párrafo de 2-3 líneas sobre quién es, qué hace y cómo vive el personaje.  
-Ej: Camila es una agricultora de pequeña escala que cultiva café y plátano. Usa su celular para comunicarse con clientes, pero no maneja aplicaciones complejas. Busca soluciones simples y útiles.]
 
-### 🎯 Objetivos
-- [Ej: Vender sus productos directamente sin intermediarios]
-- [Ej: Conocer los precios del mercado en tiempo real]
-- [Ej: Llevar un control de sus ventas y gastos]
+### Descripción
+> Sebastián es un jugador apasionado que combina videojuegos modernos con coleccionismo retro. Usa plataformas online para buscar consolas nuevas y de segunda a buen precio, y valora la rapidez en las entregas.
+> Prefiere tiendas confiables, con buena atención al cliente y métodos de pago simples.
+
+### Objetivos
+- Comprar consolas nuevas y usadas con garantía.  
+- Recibir pedidos de forma rápida en Medellín.  
+- Encontrar accesorios gamer confiables a buen precio.  
+- Hacer compras seguras sin complicaciones técnicas.
 
 ---
 
-## 📋 Historial de Usuario (Resumen)
+## Historial de Usuario (Resumen)
 
-| ID  | Usuario       | Historia                     | Prioridad | Riesgo | Puntos | Iteración | Responsable       |
-|-----|---------------|-----------------------------|-----------|--------|--------|-----------|-------------------|
-| 001 | Cliente       | Cambiar dirección de envío  | Alta      | Bajo   | 3      | 1         | Juan David Arias  |
-| 002 | Proveedor     | Subir factura de productos  | Media     | Medio  | 3      | 2         | Juan David Arias  |
-| 003 | Administrador | Ver estadísticas de ventas  | Alta      | Alto   | 5      | 2         | María Gómez       |
+| ID  | Usuario       | Historia                                         | Prioridad | Riesgo | Puntos | Iteración | Responsable       |
+|-----|---------------|--------------------------------------------------|-----------|--------|--------|-----------|-------------------|
+| 001 | Cliente       | Ver catálogo de consolas y accesorios disponibles | Alta      | Bajo   | 3      | 1         | Juan David Arias  |
+| 002 | Cliente       | Comprar consola y seleccionar método de entrega   | Alta      | Medio  | 5      | 1         | Juan David Arias  |
+| 003 | Administrador | Actualizar inventario y ver estadísticas de ventas| Alta      | Alto   | 5      | 2         | Juan David Arias  |
 
 ---
 ## Conéctate conmigo
 [![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&logoColor=white)](https://youtube.com/@juandavidarias8585?si=dX1dl-Sm-z124RiX)
 [![Instagram](https://img.shields.io/badge/Instagram-@ariasjd313-purple?logo=instagram&logoColor=white)](https://www.instagram.com/ariasjd313/?next=%2F)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin&logoColor=white)](#)
-[![Twitter](https://img.shields.io/badge/Twitter-@miusuario-1DA1F2?logo=twitter&logoColor=white)](#)
+[![X](https://img.shields.io/badge/Twitter-@miusuario-1DA1F2?logo=twitter&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Arias313-black?logo=github)](https://github.com/Arias313)
+
 
 ✉ Email: **ja0249837@gmail.com**
+
 ---
 <!-- 
 Profe, como aún no tengo una buena idea para el proyecto base, hice un perfil en GitHub. 
