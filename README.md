@@ -1,3 +1,6 @@
+https://chatgpt.com/share/690b73d8-1494-8006-96a5-a512020c1e84
+https://chatgpt.com/share/690b73f8-da98-8006-88d9-4b947eb60629
+
 #  Juan David Arias 愛 - Perfil en GitHub
 
 [![Estudiante](https://img.shields.io/badge/Role-Estudiante-blue)]()
