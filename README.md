@@ -34,22 +34,77 @@ También tengo interés en negocios y el sector agrícola para futuros proyectos
 
 ---
 
-## Zona XY - Análisis  
+# Proyecto Zona XY – Gestión de Requerimientos
 
-**Zona XY** es un proyecto orientado a la **compra y venta de consolas, videojuegos y accesorios gamer**.  
-Su propósito principal es brindar una experiencia de compra **rápida, segura y confiable en Medellín**, con la posibilidad de realizar **envíos a nivel nacional**.  
-
-Más que una tienda online, Zona XY busca convertirse en un **espacio para la comunidad gamer**, donde los clientes encuentren sus consolas favoritas, accesorios y juegos, con la garantía de un servicio cercano y eficiente.  
-
-Con el fin de anticipar posibles dificultades y fortalecer la planeación del negocio, se elaboró un **diagrama de Ishikawa**, en el que se identifican las principales causas y subcausas que podrían generar fallas o baja eficiencia en el futuro.
-
-
-![Diagrama Ishikawa Zona XY](https://raw.githubusercontent.com/Arias313/propuesta-proyecto-grado/img/Diagrama%20de%20ishikawa%20ZonaXY.png)
-
+## 📑 Contenido
+1. [Introducción](#1-introducción)
+2. [Técnicas de recolección](#2-técnicas-de-recolección)
+3. [Ciclo de vida de desarrollo](#3-ciclo-de-vida-de-desarrollo)
+4. [Diagrama de Ishikawa](#4-diagrama-de-ishikawa)
+5. [User Persona](#5-user-persona)
+6. [Historias de Usuario](#6-historias-de-usuario)
+7. [Verificación y Validación (V&V)](#7-verificación-y-validación-vv)
+8. [Requisitos funcionales](#8-requisitos-funcionales)
+9. [Requisitos no funcionales](#9-requisitos-no-funcionales)
+10. [Diagrama de procesos](#10-diagrama-de-procesos-opcional)
+11. [Gestión de requerimientos – Jira](#11-gestión-de-requerimientos--jira)
+12. [Conclusiones](#12-conclusiones)
+13. [Bibliografía](#13-bibliografía)
 
 ---
 
-## 👤 Ficha de Usuario (User Persona)
+## 1. Introducción
+### 1.1 Contexto
+Zona XY es un emprendimiento local dedicado a la compra y venta de consolas, videojuegos y accesorios gamer.
+
+### 1.2 Problema
+La ausencia de procesos digitalizados dificulta la trazabilidad del inventario, genera pérdidas por errores en el manejo de stock y limita el alcance comercial.
+
+### 1.3 Objetivo
+Desarrollar un sistema que apoye la gestión de inventario, ventas y clientes, mejorando la eficiencia operacional y la trazabilidad del negocio.
+
+---
+
+## 2. Técnicas de recolección
+
+Para la obtención de los requerimientos del sistema de Zona XY, se emplearon diversas técnicas de recolección de información:
+
+| Técnica | Descripción | Hallazgos |
+|--------|-------------|-----------|
+| Entrevistas | Reuniones con dueño del negocio | Falta trazabilidad de inventario |
+| Observación | Visita al punto físico | Procesos manuales y alta probabilidad de errores |
+| Encuestas | Realizadas a clientes frecuentes | Interés en catálogo digital |
+| Benchmark | Comparación con tiendas similares | Necesidad de ventas online |
+
+---
+
+
+## 3. Ciclo de vida de desarrollo
+
+Se adopta un modelo **Ágil – Scrum**, debido a su adaptabilidad y enfoque incremental.
+
+Fases:
+- Creación de Product Backlog
+- Sprint Planning
+- Desarrollo iterativo
+- Sprint Review
+- Retrospectiva
+
+---
+
+## 4. Diagrama de Ishikawa  
+Se analizan causas potenciales de fallas en el negocio:  
+- **Métodos**: Control manual de productos  
+- **Personas**: Falta de capacitación  
+- **Maquinaria**: No existe software  
+- **Materiales**: Registros físicos obsoletos  
+- **Entorno**: Alta demanda sin proceso eficiente  
+
+![Diagrama Ishikawa Zona XY](https://raw.githubusercontent.com/Arias313/propuesta-proyecto-grado/img/Diagrama%20de%20ishikawa%20ZonaXY.png)
+
+---
+
+## 5 User Persona
 
 | Campo              | Información base                              |
 |--------------------|-----------------------------------------------|
@@ -59,6 +114,7 @@ Con el fin de anticipar posibles dificultades y fortalecer la planeación del ne
 | **Ubicación**      | Medellín, Antioquia                           |
 | **Nivel educativo**| Universitario en curso                        |
 | **Ingreso mensual**| $1.000.000 COP (apoyo familiar + streaming)   |
+
 
 ### Descripción
 > Sebastián es un jugador apasionado que combina videojuegos modernos con coleccionismo retro. Usa plataformas online para buscar consolas nuevas y de segunda a buen precio, y valora la rapidez en las entregas.
@@ -72,7 +128,8 @@ Con el fin de anticipar posibles dificultades y fortalecer la planeación del ne
 
 ---
 
-## Historial de Usuario (Resumen)
+## 6. Historias de Usuario
+
 
 | ID  | Usuario       | Historia                                         | Prioridad | Riesgo | Puntos | Iteración | Responsable       |
 |-----|---------------|--------------------------------------------------|-----------|--------|--------|-----------|-------------------|
@@ -82,29 +139,71 @@ Con el fin de anticipar posibles dificultades y fortalecer la planeación del ne
 
 ---
 
-# V&V en Proyecto Zona XY
+## 7. Verificación y Validación (V&V)
+
+### Ejemplo 1  
+> **Requisito:** El sistema debe actualizar inventario en tiempo real.  
+
+| Verificación | Validación |
+|--------------|------------|
+| No viable, depende del proveedor, no cumple precisión | No es real necesidad; se busca evitar ventas sin stock |
 
 ---
 
-## Requisito
-> “El sistema debe permitir a los administradores actualizar el inventario de consolas y videojuegos en tiempo real.”
+## 8. Requisitos funcionales
 
-| **Verificación (Consistencia)** | **Validación (Necesidad Real)** |
-|---------------------------------|----------------------------------|
-| Se detecta una **inconsistencia técnica**: el sistema actual de la tienda solo sincroniza el inventario **cada hora** con el proveedor logístico, por lo que “en tiempo real” no es viable. Esto evidencia un **error de especificación** o una **falsa expectativa del cliente**.<br><br>**Conclusión:** el requisito no es verificable como está escrito. Debe revisarse antes de pasar a desarrollo. | En las entrevistas iniciales con los administradores se observa que, aunque desean actualizaciones “rápidas”, realmente lo que necesitan es **evitar vender productos agotados**, no necesariamente un sistema en tiempo real. Esto muestra una **confusión en la necesidad real del usuario**.<br><br>**Conclusión:** se requiere redefinir la necesidad antes de ajustar el diseño técnico. |
-
----
-
-## Requisito
-> “El sistema debe generar reportes automáticos de ventas diarios y enviarlos por correo electrónico a todos los empleados.”
-
-| **Verificación (Consistencia)** | **Validación (Necesidad Real)** |
-|---------------------------------|----------------------------------|
-| Durante la revisión de requerimientos se identifica un **error de alcance**: no todos los empleados deben recibir reportes de ventas. Según las políticas de la empresa, solo el **equipo administrativo** y **gerencia** tienen acceso a dicha información. Además, el requisito no especifica el formato ni los parámetros del reporte.<br>
-<br>**Conclusión:** fallo de **verificación**. El requisito carece de precisión y contradice las normas internas de confidencialidad. | En la reunión de validación, los usuarios finales comentan que no necesitan recibir reportes diarios, ya que el exceso de correos genera **sobrecarga de información**. Lo que realmente requieren es un **panel de consulta semanal** y la opción de exportar reportes bajo demanda.<br><br>**Conclusión:** fallo de **validación**. La funcionalidad propuesta no se ajusta a la necesidad real del usuario. |
+- RF1: Gestionar inventario  
+- RF2: Registrar ventas  
+- RF3: Consultar catálogo  
+- RF4: Registrar clientes  
 
 ---
 
+## 9. Requisitos no funcionales
+
+- RNF1: Tiempo de carga < 2s  
+- RNF2: Disponibilidad 90%  
+- RNF3: Compatible con móviles  
+- RNF4: Seguridad de datos  
+
+---
+
+## 10. Diagrama de procesos (Opcional)
+> (Espacio para BPMN o flujo)
+
+---
+
+## 11. Gestión de requerimientos – Jira
+
+Se configuró Jira con un tablero Kanban donde se asignaron historias de usuario, se les dio prioridad y se realizó seguimiento de su desarrollo en iteraciones simuladas.
+
+Se documentó:  
+- Historias de usuario  
+- Prioridades  
+- Flujo Kanban  
+- Cierre de tareas  
+
+---
+
+## 12. Conclusiones
+
+- Se estructuró correctamente el proceso de requerimientos  
+- Se identificaron necesidades reales  
+- Se definieron historias de usuario verificables  
+- Se aplicó V&V para asegurar calidad  
+- Se construyó documentación clara para desarrollo  
+
+---
+
+## 13. Bibliografía
+
+- Sommerville, Ingeniería de Software  
+- ISO/IEC 25000  
+- Atlassian Jira Docs  
+
+---
+
+---
 ## Conéctate conmigo
 [![YouTube](https://img.shields.io/badge/YouTube-Canal-red?logo=youtube&logoColor=white)](https://youtube.com/@juandavidarias8585?si=dX1dl-Sm-z124RiX)
 [![Instagram](https://img.shields.io/badge/Instagram-@ariasjd313-purple?logo=instagram&logoColor=white)](https://www.instagram.com/ariasjd313/?next=%2F)
@@ -112,5 +211,7 @@ Con el fin de anticipar posibles dificultades y fortalecer la planeación del ne
 [![X](https://img.shields.io/badge/Twitter-@miusuario-1DA1F2?logo=twitter&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-Arias313-black?logo=github)](https://github.com/Arias313)
 
+
 ✉ Email: **ja0249837@gmail.com**
 
+---
